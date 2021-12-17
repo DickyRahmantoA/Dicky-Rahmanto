@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Portfolio Dicky Rahmanto</title>
+</head>
+<header>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Port<span>folio.</span></a></div>
+            <ul class="menu">
+                <li><a href="Home">Home</a></li>
+                <li><a href="About Me">About Me</a></li>
+                <li><a href="Riwayat Pendidikan">Riwayat Pendidikan</a></li>
+                <li><a href="Skills">Skills</a></li>
+                <li><a href="Pengalaman">Pengalaman</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </div> 
+    </div>
+</header>
+<body>
+    <seaction class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Dicky Rahmanto </div>
+                <div class="text-3">Ariffirmansyah </div>
+                <div class="text-4">And i'm a <span>Programmer junior</span></div>
+            </div>
+        </div>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if(this.scrollY > 20){
+                    $(' .navbar').addClass("sticky");
+                }else{
+                    $(' .navbar').removeClass("sticky");
+                }
+            })
+        });
+    </script>
+    </seaction>
+    <p>Nama Dicky Rahmanto Ariffirmansyah biasa dipanggil diki,dik, atau ki. Lahir di jawa tengah lebih tepatnya di Sragen tanggal 11 Maret 2002. Memiliki jenis kelamin laki-laki, beragama islam dan memiliki hobi bermain game, membaca dan olah raga. </p>
+</body>
+</html>
